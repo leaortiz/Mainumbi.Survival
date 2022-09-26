@@ -13,6 +13,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.Validation.Localization;
 using Volo.Abp.VirtualFileSystem;
 using Mainumbi.Pool;
+using Mainumbi.Wallet;
 
 namespace Mainumbi.Survival;
 
@@ -27,6 +28,7 @@ namespace Mainumbi.Survival;
     typeof(AbpTenantManagementDomainSharedModule)
     )]
 [DependsOn(typeof(PoolDomainSharedModule))]
+    [DependsOn(typeof(WalletDomainSharedModule))]
     public class SurvivalDomainSharedModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)

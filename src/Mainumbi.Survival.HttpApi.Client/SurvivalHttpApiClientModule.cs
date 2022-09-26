@@ -8,6 +8,7 @@ using Volo.Abp.TenantManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.VirtualFileSystem;
 using Mainumbi.Pool;
+using Mainumbi.Wallet;
 
 namespace Mainumbi.Survival;
 
@@ -21,6 +22,7 @@ namespace Mainumbi.Survival;
     typeof(AbpSettingManagementHttpApiClientModule)
 )]
 [DependsOn(typeof(PoolHttpApiClientModule))]
+    [DependsOn(typeof(WalletHttpApiClientModule))]
     public class SurvivalHttpApiClientModule : AbpModule
 {
     public const string RemoteServiceName = "Default";

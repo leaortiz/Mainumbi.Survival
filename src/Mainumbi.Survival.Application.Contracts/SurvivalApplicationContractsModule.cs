@@ -7,6 +7,7 @@ using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using Mainumbi.Pool;
+using Mainumbi.Wallet;
 
 namespace Mainumbi.Survival;
 
@@ -21,6 +22,7 @@ namespace Mainumbi.Survival;
     typeof(AbpObjectExtendingModule)
 )]
 [DependsOn(typeof(PoolApplicationContractsModule))]
+    [DependsOn(typeof(WalletApplicationContractsModule))]
     public class SurvivalApplicationContractsModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)

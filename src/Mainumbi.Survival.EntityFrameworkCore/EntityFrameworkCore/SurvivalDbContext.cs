@@ -13,6 +13,7 @@ using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using Mainumbi.Pool.EntityFrameworkCore;
+using Mainumbi.Wallet.EntityFrameworkCore;
 
 namespace Mainumbi.Survival.EntityFrameworkCore;
 
@@ -83,5 +84,6 @@ public class SurvivalDbContext :
         //    //...
         //});
         builder.ConfigurePool();
+            builder.ConfigureWallet();
         }
 }

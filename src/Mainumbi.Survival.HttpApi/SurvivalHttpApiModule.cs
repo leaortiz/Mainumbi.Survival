@@ -9,6 +9,7 @@ using Volo.Abp.PermissionManagement.HttpApi;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using Mainumbi.Pool;
+using Mainumbi.Wallet;
 
 namespace Mainumbi.Survival;
 
@@ -22,6 +23,7 @@ namespace Mainumbi.Survival;
     typeof(AbpSettingManagementHttpApiModule)
     )]
 [DependsOn(typeof(PoolHttpApiModule))]
+    [DependsOn(typeof(WalletHttpApiModule))]
     public class SurvivalHttpApiModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

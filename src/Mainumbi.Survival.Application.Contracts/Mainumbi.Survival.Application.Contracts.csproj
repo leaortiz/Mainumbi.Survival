@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Mainumbi.Survival.Domain.Shared\Mainumbi.Survival.Domain.Shared.csproj" />
-  <ProjectReference Include="..\..\modules\Mainumbi.Pool\src\Mainumbi.Pool.Application.Contracts\Mainumbi.Pool.Application.Contracts.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\Mainumbi.Pool\src\Mainumbi.Pool.Application.Contracts\Mainumbi.Pool.Application.Contracts.csproj" /><ProjectReference Include="..\..\modules\Mainumbi.Wallet\src\Mainumbi.Wallet.Application.Contracts\Mainumbi.Wallet.Application.Contracts.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Volo.Abp.ObjectExtending" Version="5.3.4" />

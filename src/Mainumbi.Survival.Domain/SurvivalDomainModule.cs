@@ -14,6 +14,7 @@ using Volo.Abp.PermissionManagement.IdentityServer;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using Mainumbi.Pool;
+using Mainumbi.Wallet;
 
 namespace Mainumbi.Survival;
 
@@ -31,6 +32,7 @@ namespace Mainumbi.Survival;
     typeof(AbpEmailingModule)
 )]
 [DependsOn(typeof(PoolDomainModule))]
+    [DependsOn(typeof(WalletDomainModule))]
     public class SurvivalDomainModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

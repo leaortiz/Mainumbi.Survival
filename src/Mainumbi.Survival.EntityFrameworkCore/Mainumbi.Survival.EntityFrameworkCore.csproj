@@ -18,7 +18,7 @@
     <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="5.3.4" />
     <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="5.3.4" />
     <PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="5.3.4" />
-  <ProjectReference Include="..\..\modules\Mainumbi.Pool\src\Mainumbi.Pool.EntityFrameworkCore\Mainumbi.Pool.EntityFrameworkCore.csproj" /></ItemGroup>
+  <ProjectReference Include="..\..\modules\Mainumbi.Pool\src\Mainumbi.Pool.EntityFrameworkCore\Mainumbi.Pool.EntityFrameworkCore.csproj" /><ProjectReference Include="..\..\modules\Mainumbi.Wallet\src\Mainumbi.Wallet.EntityFrameworkCore\Mainumbi.Wallet.EntityFrameworkCore.csproj" /></ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.5">

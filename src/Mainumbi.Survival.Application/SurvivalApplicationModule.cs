@@ -7,6 +7,7 @@ using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.TenantManagement;
 using Mainumbi.Pool;
+using Mainumbi.Wallet;
 
 namespace Mainumbi.Survival;
 
@@ -21,6 +22,7 @@ namespace Mainumbi.Survival;
     typeof(AbpSettingManagementApplicationModule)
     )]
 [DependsOn(typeof(PoolApplicationModule))]
+    [DependsOn(typeof(WalletApplicationModule))]
     public class SurvivalApplicationModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Mainumbi.Wallet.Domain.Shared": {
+      "path": "src/Mainumbi.Wallet.Domain.Shared/Mainumbi.Wallet.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.Domain": {
+      "path": "src/Mainumbi.Wallet.Domain/Mainumbi.Wallet.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.Application.Contracts": {
+      "path": "src/Mainumbi.Wallet.Application.Contracts/Mainumbi.Wallet.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.Application": {
+      "path": "src/Mainumbi.Wallet.Application/Mainumbi.Wallet.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.EntityFrameworkCore": {
+      "path": "src/Mainumbi.Wallet.EntityFrameworkCore/Mainumbi.Wallet.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.MongoDB": {
+      "path": "src/Mainumbi.Wallet.MongoDB/Mainumbi.Wallet.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.HttpApi": {
+      "path": "src/Mainumbi.Wallet.HttpApi/Mainumbi.Wallet.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.HttpApi.Client": {
+      "path": "src/Mainumbi.Wallet.HttpApi.Client/Mainumbi.Wallet.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.TestBase": {
+      "path": "test/Mainumbi.Wallet.TestBase/Mainumbi.Wallet.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Mainumbi.Wallet.EntityFrameworkCore.Tests": {
+      "path": "test/Mainumbi.Wallet.EntityFrameworkCore.Tests/Mainumbi.Wallet.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Mainumbi.Wallet.MongoDB.Tests": {
+      "path": "test/Mainumbi.Wallet.MongoDB.Tests/Mainumbi.Wallet.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Mainumbi.Wallet.Domain.Tests": {
+      "path": "test/Mainumbi.Wallet.Domain.Tests/Mainumbi.Wallet.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Mainumbi.Wallet.Application.Tests": {
+      "path": "test/Mainumbi.Wallet.Application.Tests/Mainumbi.Wallet.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Mainumbi.Wallet.HttpApi.Host": {
+      "path": "host/Mainumbi.Wallet.HttpApi.Host/Mainumbi.Wallet.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Mainumbi.Wallet.Web": {
+      "path": "src/Mainumbi.Wallet.Web/Mainumbi.Wallet.Web.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Mainumbi.Wallet.HttpApi.Client.ConsoleTestApp/Mainumbi.Wallet.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Mainumbi.Wallet.Web.Host": {
+      "path": "host/Mainumbi.Wallet.Web.Host/Mainumbi.Wallet.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Mainumbi.Wallet.IdentityServer": {
+      "path": "host/Mainumbi.Wallet.IdentityServer/Mainumbi.Wallet.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Mainumbi.Wallet.Host.Shared": {
+      "path": "host/Mainumbi.Wallet.Host.Shared/Mainumbi.Wallet.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "Mainumbi.Wallet.Web.Unified": {
+      "path": "host/Mainumbi.Wallet.Web.Unified/Mainumbi.Wallet.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "Mainumbi.Wallet.Blazor": {
+      "path": "src/Mainumbi.Wallet.Blazor/Mainumbi.Wallet.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.Blazor.Host": {
+      "path": "host/Mainumbi.Wallet.Blazor.Host/Mainumbi.Wallet.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Mainumbi.Wallet.Blazor.Server": {
+      "path": "src/Mainumbi.Wallet.Blazor.Server/Mainumbi.Wallet.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.Blazor.WebAssembly": {
+      "path": "src/Mainumbi.Wallet.Blazor.WebAssembly/Mainumbi.Wallet.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "Mainumbi.Wallet.Blazor.Server.Host": {
+      "path": "host/Mainumbi.Wallet.Blazor.Server.Host/Mainumbi.Wallet.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

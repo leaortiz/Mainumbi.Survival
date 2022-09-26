@@ -12,6 +12,7 @@ using Volo.Abp.PermissionManagement.EntityFrameworkCore;
 using Volo.Abp.SettingManagement.EntityFrameworkCore;
 using Volo.Abp.TenantManagement.EntityFrameworkCore;
 using Mainumbi.Pool.EntityFrameworkCore;
+using Mainumbi.Wallet.EntityFrameworkCore;
 
 namespace Mainumbi.Survival.EntityFrameworkCore;
 
@@ -28,6 +29,7 @@ namespace Mainumbi.Survival.EntityFrameworkCore;
     typeof(AbpFeatureManagementEntityFrameworkCoreModule)
     )]
 [DependsOn(typeof(PoolEntityFrameworkCoreModule))]
+    [DependsOn(typeof(WalletEntityFrameworkCoreModule))]
     public class SurvivalEntityFrameworkCoreModule : AbpModule
 {
     public override void PreConfigureServices(ServiceConfigurationContext context)
