@@ -9,7 +9,7 @@ using Xunit;
 
 namespace Mainumbi.Pool
 {
-    public class Pool_Tests
+    public class Pool_Tests : PoolDomainTestBase
     {   
         [Fact]
         public void Will_Create_New_Valid_Pool()
@@ -90,9 +90,6 @@ namespace Mainumbi.Pool
             ex.Code.ShouldBe(PoolErrorCodes.PoolShouldBeOpen);
         }
 
-        private static Pool NewPool()
-        {
-            return new(100, 10, 1, 1, 3, 2, 1, 1, 10.0m);
-        }
+
     }
 }
