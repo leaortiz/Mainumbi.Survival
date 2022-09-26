@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Mainumbi.Survival</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mainumbi.Survival.Domain\Mainumbi.Survival.Domain.csproj" />
+    <ProjectReference Include="..\Mainumbi.Survival.Application.Contracts\Mainumbi.Survival.Application.Contracts.csproj" />
+  <ProjectReference Include="..\..\modules\Mainumbi.Pool\src\Mainumbi.Pool.Application\Mainumbi.Pool.Application.csproj" /></ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Account.Application" Version="5.3.4" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="5.3.4" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="5.3.4" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="5.3.4" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="5.3.4" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="5.3.4" />
+  </ItemGroup>
+
+</Project>

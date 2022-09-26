@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "Mainumbi.Pool": {
+      "path": "Mainumbi.Pool.abpmdl.json"
+    }
+  }
+}
