@@ -17,7 +17,7 @@ public class SampleAppService_Tests : PoolApplicationTestBase
     public async Task GetAsync()
     {
         var result = await _sampleAppService.Get420Async();
-        result.Value.ShouldBe(42);
+        result.Value.ShouldBe(420);
     }
 
     [Fact]

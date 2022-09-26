@@ -2,5 +2,7 @@
 
 public static class PoolErrorCodes
 {
-    //Add your business exception error codes here...
+    public static string PoolShouldBeOpen = $"Pool:00001";
+    public static string PoolShouldBeInProgress = $"Pool:00002";
+    public static string PoolNotEnoughEnrollments= $"Pool:00003";
 }
