@@ -21,11 +21,11 @@ namespace Mainumbi.Pool
         }
 
         [Fact]
-        public void Will_Add_Enroll()
+        public void Will_Register()
         {
             Pool pool = NewPool();
 
-            pool = pool.Enroll();
+            pool = pool.Register();
 
             pool.Entries.ShouldBe(1);
             pool.GetPayout().ShouldBe(90);
@@ -34,12 +34,12 @@ namespace Mainumbi.Pool
 
 
         [Fact]
-        public void Will_Unroll()
+        public void Will_UnRegister()
         {
             Pool pool = NewPool();
 
-            pool = pool.Enroll();
-            pool = pool.UnRoll();
+            pool = pool.Register();
+            pool = pool.UnRegister();
 
             pool.Entries.ShouldBe(1);
         }
@@ -49,7 +49,7 @@ namespace Mainumbi.Pool
         {
             Pool pool = NewPool();
 
-            pool = pool.Enroll();
+            pool = pool.Register();
 
             var ex = Assert.Throws<BusinessException>(() => pool.SetInProgress());
             ex.Code.ShouldBe(PoolErrorCodes.PoolNotEnoughEnrollments);
@@ -60,8 +60,8 @@ namespace Mainumbi.Pool
         {
             Pool pool = NewPool();
 
-            pool = pool.Enroll();
-            pool = pool.Enroll();
+            pool = pool.Register();
+            pool = pool.Register();
 
             pool.SetInProgress();
             
@@ -78,8 +78,8 @@ namespace Mainumbi.Pool
         {
             Pool pool = NewPool();
 
-            pool = pool.Enroll();
-            pool = pool.Enroll();
+            pool = pool.Register();
+            pool = pool.Register();
 
             pool.SetAsCanceled();
 

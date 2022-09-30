@@ -18,9 +18,4 @@ public abstract class SampleRepository_Tests<TStartupModule> : PoolTestBase<TSta
         //_sampleRepository = GetRequiredService<ISampleRepository>();
     }
 
-    [Fact]
-    public async Task Method1Async()
-    {
-
-    }
 }

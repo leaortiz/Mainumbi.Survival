@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 using Volo.Abp.Domain.Entities.Auditing;
 
@@ -28,6 +29,16 @@ namespace Mainumbi.Pool
         {
             Ticket ticket = new(newId, this);
             Tickets.Add(ticket);
+
+            return this;
+        }
+
+        public Book RemoveTicket(Guid ticketId)
+        {
+            Ticket ticket = Tickets.Find(t => t.Id == ticketId);
+            if(ticket != null)
+                Tickets.Add(ticket);
+
             return this;
         }
     }

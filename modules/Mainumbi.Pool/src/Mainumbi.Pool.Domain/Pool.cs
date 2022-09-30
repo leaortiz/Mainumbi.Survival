@@ -48,7 +48,7 @@ namespace Mainumbi.Pool
             MinEnrollments = minEnrollments;
         }
 
-        public Pool Enroll()
+        public Pool Register()
         {
             if(Spots == null || Spots > Entries)
                 Entries += 1;
@@ -56,7 +56,7 @@ namespace Mainumbi.Pool
             return this;
         }
 
-        public Pool UnRoll()
+        public Pool UnRegister()
         {
             if(Entries > 1)
                 Entries--;

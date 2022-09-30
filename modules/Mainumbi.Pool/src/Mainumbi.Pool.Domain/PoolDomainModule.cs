@@ -9,5 +9,4 @@ namespace Mainumbi.Pool;
 )]
 public class PoolDomainModule : AbpModule
 {
-
 }
